@@ -27,9 +27,16 @@ To instantiate a class using reflection you can use the following code:
 House house = (House) Class.forName("constructs.House").getDeclaredConstructors()[0].newInstance(new PositiveNumber(1), new PositiveNumber(1));
 ```
 
+
+Below are some examples for construct you need to use:
+
+Helper method to get the annotation from a class:
+
 ```
 House.class.getAnnotation(EnableTiming.class);
 ```
+
+Making a generic class:
 
 ```
 public class Cache<T> {
