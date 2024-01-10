@@ -6,6 +6,11 @@ logging:
         transaction: DEBUG
 
 spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    defer-datasource-initialization: true
 #  datasource:
 #    driver-class-name: org.postgresql.Driver
 #    url: jdbc:postgresql://localhost:5432/library
