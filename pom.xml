@@ -10,7 +10,7 @@
 
   <groupId>com.xebia</groupId>
   <artifactId>java-training-assignments</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1</version>
 
   <name>Java training</name>
   <description>Assignments during the Java training</description>
@@ -42,6 +42,7 @@
     <source.encoding>UTF-8</source.encoding>
   </properties>
 
+
   <dependencies>
     <dependency>
       <groupId>com.sun.mail</groupId>
@@ -56,6 +57,10 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
